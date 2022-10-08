@@ -1,2 +1,2 @@
 # nbquery
-Query the NetBIOS name tables for both the local computer and remote computer.
+This tool implements the NetBIOS API Adapter Status Query function described in the RFCs 1001/1002. Also known as Node Status Query and many other names, this NBT message is used to retrieve the NetBIOS name table for both the local computer and remote computers, and various statistics from LAN cards or virtual adapters. Most modern systems ignore the data in the statistics record except for the first six bytes (the unit_id field), which are used to store the Ethernet MAC address.
